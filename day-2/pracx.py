@@ -27,3 +27,50 @@ for num in numbers:
 
 print(count)
 
+def greet(name="Alex"):
+    print(f"Hello {name}")
+
+greet()
+greet("David")
+
+def add(a, b):
+    result = a + b
+    print(result)
+
+add(10,20)
+
+
+def addR(a, b):
+    return a + b
+
+result = addR(52, 26)
+print("addition of two numbers:", result)
+
+def intro(name, age):
+
+    print(f"Name:  {name}")
+    print(f"Age:  {age}")
+
+intro("Alex", 25)
+
+def employee(name, role):
+    print(name)
+    print(role)
+
+employee(role="Engineer", name="Alex")
+
+def calculate_salary(hours, rate):
+    
+    return hours * rate
+
+salary = calculate_salary(160, 500)
+
+print(salary)
+
+def generate_email(name):
+
+    return f"{name.lower()}@company.com"
+
+print(generate_email("Alex"))
+
+
