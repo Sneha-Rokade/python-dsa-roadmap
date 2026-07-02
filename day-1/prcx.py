@@ -50,3 +50,59 @@ person_1 = {
 
 print("Persona details : ", person_1)
 print("Data type of person_1 : ", type(person_1))
+
+s = "Welcome to the Jungle"
+print("Display String: ", s)
+print("length of the string ", len(s))
+print("0 position ", s[0])
+print("20 positon ", s[20])
+print("last positon ", s[-1])
+
+# print("print only welcome ", s[0:7])
+print("print only ", s[11:15])
+
+str1 = "boilingpoint"
+print("previous string: ", str1)
+
+str1 = "B" + str1[1:7] + " P" + str1[8:]
+print("before string: ", str1)
+
+msg="Hello"
+
+print("before delete the variable ", msg)
+del msg
+# print("After delete the variable ", msg)
+
+give_str = "Welcome to world"
+
+print("Given String ", give_str)
+
+new_str = "W" + give_str[-4:]
+print("world --> World ", new_str)
+
+new_str1 = give_str.replace("world","the Dehradun")
+print("new_str1 ", new_str1)
+
+print("Total number of characters in new_str1 ", len(new_str1))
+
+a = "abcdef"
+print("Total number of characters in a ", len(a))
+
+print("Upper case characters in a ", a.upper())
+
+print("lower case characters in a ", a.lower())
+
+print("Capitalize case characters in a ", a.capitalize())
+
+fun = " Havingfunn  "
+
+print("remove white space in fun", fun.strip())
+
+specific_char = "####Hi###"
+print("remove white space in fun", specific_char.strip("#"))
+
+movie = "The Tarzan the wonder car"
+price = 200.00
+seat = "F12"
+
+print(f"{movie} ticket price is {price} and seat number is {seat}")
