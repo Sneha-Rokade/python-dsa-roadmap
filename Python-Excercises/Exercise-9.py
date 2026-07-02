@@ -16,3 +16,15 @@ for ch in sentence:
         count += 1
 
 print(count)
+
+print("=================================")
+
+s = "Learning Python is fun!"
+v = "aeiou"
+count = 0
+
+for ch in s.lower():
+    if ch in vowels:
+        count += 1
+
+print(count)
