@@ -11,6 +11,13 @@ a = int(input("Enter number: "))
 result = factorial(a)
 print(f"The factorial number of  is {result}")
 
+integer = -20    
+print('Absolute value of -20 is:', abs(integer))    
+    
+#  floating number    
+floating = -20.83    
+print('Absolute value of -20.83 is:', abs(floating))    
+
 # To calculate the factorial using recursion, I define a function `factorial(n)` where the function calls itself with a smaller value of `n`.
 
 # First, I define a **base case**, which is `if n == 1: return 1`. This is important because it stops the recursion. Without this condition, the function would keep calling itself infinitely and cause a stack overflow.
